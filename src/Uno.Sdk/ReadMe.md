@@ -4,10 +4,10 @@ The Uno.Sdk powers the Uno Platform Single Project, including the ability to imp
 
 | MSBuild Property | Default Version |
 |----------------|:---------------:|
-| UnoVersion* | 6.7.0-dev.783 |
+| UnoVersion* | 6.7.0-dev.785 |
 | UnoExtensionsVersion | 7.3.0-dev.99 |
-| UnoToolkitVersion | 9.0.0-dev.16 |
-| UnoThemesVersion | 7.0.0-dev.40 |
+| UnoToolkitVersion | 9.0.0-dev.17 |
+| UnoThemesVersion | 7.0.0-dev.41 |
 | UnoCSharpMarkupVersion | 6.7.0-dev.16 |
 | UnoWasmBootstrapVersion** | 9.0.23 |
 | UnoLoggingVersion | 1.7.0 |
@@ -48,7 +48,7 @@ The Uno.Sdk powers the Uno Platform Single Project, including the ability to imp
 [
   {
     "group": "Core",
-    "version": "6.7.0-dev.783",
+    "version": "6.7.0-dev.785",
     "packages": [
       "Uno.WinUI",
       "Uno.UI.Adapter.Microsoft.Extensions.Logging",
@@ -142,7 +142,7 @@ The Uno.Sdk powers the Uno Platform Single Project, including the ability to imp
   },
   {
     "group": "hotdesign",
-    "version": "1.20.0-dev.449",
+    "version": "1.20.0-dev.472",
     "packages": [
       "Uno.UI.HotDesign"
     ]
@@ -390,7 +390,7 @@ The Uno.Sdk powers the Uno Platform Single Project, including the ability to imp
   },
   {
     "group": "Toolkit",
-    "version": "9.0.0-dev.16",
+    "version": "9.0.0-dev.17",
     "packages": [
       "Uno.Toolkit.WinUI",
       "Uno.Toolkit.WinUI.Cupertino",
@@ -403,7 +403,7 @@ The Uno.Sdk powers the Uno Platform Single Project, including the ability to imp
   },
   {
     "group": "Themes",
-    "version": "7.0.0-dev.40",
+    "version": "7.0.0-dev.41",
     "packages": [
       "Uno.Material.WinUI",
       "Uno.Material.WinUI.Markup",
