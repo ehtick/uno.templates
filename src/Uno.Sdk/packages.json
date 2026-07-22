@@ -1,7 +1,7 @@
 ﻿[
   {
     "group": "Core",
-    "version": "6.7.0-dev.828",
+    "version": "6.7.0-dev.849",
     "packages": [
       "Uno.WinUI",
       "Uno.UI.Adapter.Microsoft.Extensions.Logging",
@@ -95,7 +95,7 @@
   },
   {
     "group": "hotdesign",
-    "version": "1.20.0-dev.646",
+    "version": "1.20.0-dev.656",
     "packages": [
       "Uno.UI.HotDesign"
     ]
@@ -300,7 +300,7 @@
       "Microsoft.Maui.Graphics"
     ],
     "versionOverride": {
-      "net10.0": "10.0.80"
+      "net10.0": "10.0.90"
     }
   },
   {
