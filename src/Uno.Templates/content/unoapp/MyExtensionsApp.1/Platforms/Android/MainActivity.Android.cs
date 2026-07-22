@@ -16,7 +16,7 @@ namespace MyExtensionsApp._1.Droid;
     ConfigurationChanges = global::Uno.UI.ActivityHelper.AllConfigChanges,
     WindowSoftInputMode = SoftInput.AdjustNothing | SoftInput.StateHidden
 )]
-#if includeAndroidTV
+#if useAndroidTV
 [IntentFilter(
     new[] { Android.Content.Intent.ActionMain },
     Categories = new[] {

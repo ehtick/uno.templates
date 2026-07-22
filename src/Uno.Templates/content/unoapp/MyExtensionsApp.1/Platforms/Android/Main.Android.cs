@@ -21,7 +21,7 @@ namespace MyExtensionsApp._1.Droid;
     Label = "@string/ApplicationName",
     Icon = "@mipmap/icon",
 //+:cnd:noEmit
-#if includeAndroidTV
+#if useAndroidTV
     Banner = "@drawable/banner",
 #endif
 //-:cnd:noEmit
