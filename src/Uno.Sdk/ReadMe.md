@@ -33,12 +33,12 @@ The Uno.Sdk powers the Uno Platform Single Project, including the ability to imp
 | AndroidXActivityVersion | 1.10.1.2 |
 | AndroidXBrowserVersion | 1.8.0.10 |
 | AndroidXSwipeRefreshLayoutVersion | 1.1.0.28 |
-| AndroidXNavigationVersion | 2.8.9.2 |
-| AndroidXCollectionVersion | 1.5.0.2 |
 | AndroidXLeanbackVersion | 1.0.0.30 |
 | AndroidXCarAppVersion | 1.4.0.2 |
 | AndroidXWearVersion | 1.3.0.16 |
 | AndroidXWearTilesVersion | 1.4.0.1 |
+| AndroidXNavigationVersion | 2.8.9.2 |
+| AndroidXCollectionVersion | 1.5.0.2 |
 | MauiVersion** | 9.0.120 |
 
 \* UnoVersion cannot be changed via MSBuild. You must change the SDK Version to change the UnoVersion.
@@ -63,7 +63,6 @@ The Uno.Sdk powers the Uno Platform Single Project, including the ability to imp
       "Uno.WinUI.Runtime.Skia.MacOS",
       "Uno.WinUI.Runtime.Skia.Win32",
       "Uno.WinUI.Runtime.Skia.X11",
-      "Uno.WinUI.Svg",
       "Uno.WinUI.WebAssembly",
       "Uno.WinUI.Runtime.Skia.Android",
       "Uno.WinUI.Runtime.Skia.AppleUIKit",
@@ -179,6 +178,13 @@ The Uno.Sdk powers the Uno Platform Single Project, including the ability to imp
     "version": "10.0.28000.2270",
     "packages": [
       "Microsoft.Windows.SDK.BuildTools"
+    ]
+  },
+  {
+    "group": "WinAppSdkBuildToolsWinApp",
+    "version": "0.5.0",
+    "packages": [
+      "Microsoft.Windows.SDK.BuildTools.WinApp"
     ]
   },
   {
@@ -315,6 +321,46 @@ The Uno.Sdk powers the Uno Platform Single Project, including the ability to imp
     }
   },
   {
+    "group": "AndroidXLeanback",
+    "version": "1.0.0.30",
+    "packages": [
+      "Xamarin.AndroidX.Leanback"
+    ],
+    "versionOverride": {
+      "net10.0": "1.0.0.31"
+    }
+  },
+  {
+    "group": "AndroidXCarApp",
+    "version": "1.4.0.2",
+    "packages": [
+      "Xamarin.AndroidX.Car.App.App"
+    ],
+    "versionOverride": {
+      "net10.0": "1.4.0.3"
+    }
+  },
+  {
+    "group": "AndroidXWear",
+    "version": "1.3.0.16",
+    "packages": [
+      "Xamarin.AndroidX.Wear"
+    ],
+    "versionOverride": {
+      "net10.0": "1.4.0.1"
+    }
+  },
+  {
+    "group": "AndroidXWearTiles",
+    "version": "1.4.0.1",
+    "packages": [
+      "Xamarin.AndroidX.Wear.Tiles"
+    ],
+    "versionOverride": {
+      "net10.0": "1.4.1"
+    }
+  },
+  {
     "group": "AndroidXNavigation",
     "version": "2.8.9.2",
     "packages": [
@@ -432,53 +478,6 @@ The Uno.Sdk powers the Uno Platform Single Project, including the ability to imp
     "version": "1.3.0-dev.36",
     "packages": [
       "Uno.UI.App.Mcp"
-    ]
-  },
-  {
-    "group": "AndroidXLeanback",
-    "version": "1.0.0.30",
-    "packages": [
-      "Xamarin.AndroidX.Leanback"
-    ],
-    "versionOverride": {
-      "net10.0": "1.0.0.31"
-    }
-  },
-  {
-    "group": "AndroidXCarApp",
-    "version": "1.4.0.2",
-    "packages": [
-      "Xamarin.AndroidX.Car.App.App"
-    ],
-    "versionOverride": {
-      "net10.0": "1.4.0.3"
-    }
-  },
-  {
-    "group": "AndroidXWear",
-    "version": "1.3.0.16",
-    "packages": [
-      "Xamarin.AndroidX.Wear"
-    ],
-    "versionOverride": {
-      "net10.0": "1.4.0.1"
-    }
-  },
-  {
-    "group": "AndroidXWearTiles",
-    "version": "1.4.0.1",
-    "packages": [
-      "Xamarin.AndroidX.Wear.Tiles"
-    ],
-    "versionOverride": {
-      "net10.0": "1.4.1"
-    }
-  },
-  {
-    "group": "WinAppSdkBuildToolsWinApp",
-    "version": "0.5.0",
-    "packages": [
-      "Microsoft.Windows.SDK.BuildTools.WinApp"
     ]
   }
 ]
